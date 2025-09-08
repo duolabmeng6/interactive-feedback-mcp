@@ -375,7 +375,7 @@ class FeedbackUI(QMainWindow):
         self.size_multiplier = 1
         self.size_states = [1, 2, 3]  # 窗口大小倍数状态
 
-        self.setWindowTitle("AI超级助手 MCP 微信:261077")
+        self.setWindowTitle("AI超级助手 MCP qq:1715109585")
         script_dir = os.path.dirname(os.path.abspath(__file__))
         icon_path = os.path.join(script_dir, "images", "feedback.png")
         self.setWindowIcon(QIcon(icon_path))
